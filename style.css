@@ -1,3 +1,25 @@
+/* colors */
+
+:root {
+	---orange-main: #cd6326;
+	--orange-light: #e39128;
+	--orange-dark: #8f5613;
+	--font-light: #f7f7f7;
+	--font-grey: #666;
+	--font-dark: #333;
+  --background: #ccc;
+}
+
+/* fonts */
+
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --second-family: "Roboto", sans-serif;
+}
+
+/* main blocks */
+
 body {
-  background-color: blueviolet;
+  background-color: var(--background);
+  font-family: var(--font-family);
 }
